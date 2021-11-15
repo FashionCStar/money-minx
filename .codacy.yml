@@ -1,0 +1,7 @@
+exclude_paths:
+  - '**.min.js'
+  - '**/tests/**'
+  - '**.scss',
+  - 'tsconfig.json',
+  - 'tslint.json',
+  - 'package.json'

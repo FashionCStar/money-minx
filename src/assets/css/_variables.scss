@@ -1,0 +1,101 @@
+// color list
+$red: #d3365f;
+$blue: #235ee7;
+$cyan: #29cfd6;
+$pink: #fd8f95;
+$gray: #969eac;
+$green: #10c273;
+$black: #000000;
+$white: #ffffff;
+$purple: #534cea;
+$purpleGlow: #23206066;
+$yellow: #ffbc02;
+$darkBg: #081833;
+$lightBg: #fafbfd;
+$redAlert: #ec5555;
+$darkGray: #434a55;
+$darkBlue: #1f32ad;
+$purpleLight: #d3d1fa;
+$borderAlert: #e2e5ea;
+$pinkAlert: #fd8f95;
+$dimGray: #9c9fa53d;
+
+// social
+$pinterestRed: #cb2026;
+$pinterestRedGlow: #cb20264d;
+$facebookBlue: #0378ec;
+$facebookBlueGlow: #0378ec4d;
+$twitterBlue: #00acee;
+$twitterBlueGlow: #00acee4d;
+$googleRed: #ea4235;
+$googleRedGlow: #ea42354d;
+$appleBlack: #000000;
+$appleBlackGlow: #0000004d;
+
+// opacity color
+$grayOpacity10: #969eac1a;
+$grayOpacity20: #969eac33;
+$grayOpacity24: #969eac3d;
+$grayOpacity30: #969eac4d;
+$grayOpacity40: #969eac66;
+$grayOpacity50: #969eac80;
+$grayOpacity70: #969eacb3;
+$purpleOpacity00: #534cea00;
+$purpleOpacity02: #534cea04;
+$purpleOpacity03: #534cea07;
+$purpleOpacity04: #534cea0a;
+$purpleOpacity06: #534cea0f;
+$purpleOpacity10: #534cea1a;
+$purpleOpacity20: #534cea33;
+$purpleOpacity24: #534cea3d;
+$purpleOpacity30: #534cea4d;
+$purpleOpacity40: #534cea66;
+$purpleOpacity50: #534cea80;
+$darkPurpleOpacity40: #23206066;
+$darkBlueOpacity03: #1f32ad08;
+$grayBorder20: #a5acb833;
+
+// shadow color
+$whiteShadow: #dbe3f0;
+$whiteInsetShadow: #ebecf1;
+$whiteFadeShadow: #e2e8f3;
+$purpleShadow: #b9b8e0;
+$whiteOutlineButtonShadow: #3a33cc;
+$whiteFadeInsetShadow: #b9b8e0;
+$pinkShadow30: #fb8e944d;
+
+// blur
+$blurBg: rgba(236, 241, 249, 0.4);
+$modalCardBg: #ecf1f966;
+
+// theme colors
+$primary: $purple;
+$secondary: $darkBg;
+
+// tooltip color
+$tooltip-bg: $darkBg;
+
+// light color
+$primaryLight: $purpleLight;
+
+// spacing
+$s: 0.5rem;
+$s1: 1rem;
+$s2: 2rem;
+$s3: 3rem;
+$s4: 4rem;
+
+// breakpoints
+$sm: 375px;
+$med: 576px;
+$md: 768px;
+$desk: 1024px;
+$lg: 1400px;
+
+// font weight
+$lighter: 500;
+$normal: 600;
+
+//font weights
+$bold: 500;
+$bolder: 600;

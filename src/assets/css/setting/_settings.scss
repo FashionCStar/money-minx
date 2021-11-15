@@ -1,0 +1,489 @@
+.mm-setting {
+  background: $lightBg;
+
+  .mm-setting-navbar {
+    background: $white;
+    box-shadow: 0 2px 8px $whiteShadow, inset 0px -1px 0px $whiteInsetShadow;
+    border-radius: 0 0 6px 6px;
+
+    .mm-setting-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      &--item {
+        margin-right: 2.5rem;
+      }
+    }
+  }
+
+  .mm-settings-container {
+    max-width: 830px;
+    width: 100%;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem;
+    margin: 1.375rem auto 3rem auto;
+
+    @media (min-width: $md) {
+      margin: 2.5rem auto 3.75rem auto;
+    }
+
+    .mm-settings-title {
+      max-width: 830px;
+      font-weight: 400;
+      font-size: 1.125rem;
+      overflow: hidden;
+      margin: auto;
+      color: $gray;
+
+      @media (max-width: $md - 1) {
+        overflow-x: scroll;
+        scroll-snap-type: x proximity;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+
+      &--list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        overflow: auto;
+      }
+
+      &--type {
+        margin-right: 5rem;
+        padding: 0 0.125rem 0.875rem 0.125rem;
+        height: 41px;
+
+        &.active,
+        &:hover {
+          border-bottom: 1.5px solid $primary;
+
+          a {
+            color: $darkGray;
+          }
+        }
+      }
+
+      &--link {
+        color: $gray;
+      }
+
+      &--bar {
+        margin-top: -1rem;
+        border-bottom: 1px solid $grayOpacity24;
+      }
+    }
+  }
+
+  .mm-setting-card {
+    box-shadow: 0 2px 8px $whiteFadeShadow, inset 0px -1px 0px $whiteInsetShadow;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    border: none;
+
+    &--title {
+      font-weight: $normal;
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+
+      span {
+        font-weight: $lighter;
+        font-size: 0.875rem;
+      }
+    }
+
+    &--subscription {
+      color: $redAlert;
+      font-weight: 500;
+      font-size: 1.125rem;
+    }
+
+    .card-body {
+      padding: 1.5rem 1.25rem;
+
+      @media (min-width: $md) {
+        padding: 1.5rem 2.5rem;
+      }
+
+      &.connected {
+        border-left: 3px solid #10C273;
+        border-radius: 6px;
+      }
+
+      &.manual {
+        border-left: 3px solid #235EE7;
+        border-radius: 6px;
+      }
+    }
+
+    input {
+      color: $darkGray;
+    }
+  }
+
+  .mm-button {
+    width: 200px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: 1.5px solid $purple;
+    height: 48px;
+
+    &__flat {
+      padding: 0;
+      border: 0;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+    @media (max-width: $md - 1) {
+      width: 100%;
+      height: 48px;
+    }
+  }
+
+  .mm-setting-form-info {
+    font-size: 0.875rem;
+    color: $gray;
+    margin-left: 2rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: right;
+
+    @media (min-width: $md) {
+      text-align: left;
+    }
+  }
+
+  .mm-setting-form-pw {
+    border: none;
+    color: $gray;
+  }
+
+  .custom-checkbox {
+    cursor: pointer;
+    font-size: 1.375rem;
+    position: absolute;
+    top: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 1px solid #534cea24;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+  }
+
+  .custom-checkbox input:checked ~ .checkmark {
+    background-color: $white;
+  }
+
+  .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+
+  .custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .custom-checkbox .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 0.75rem;
+    border: solid $purple;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+  }
+
+  .mm-setting-footer {
+    border-top: 1px solid $grayOpacity24;
+    font-weight: $lighter;
+    font-size: 0.938rem;
+    height: 4.75rem;
+    clear: both;
+    position: relative;
+    color: $gray;
+
+    &--block {
+      display: flex;
+      padding: 1.75rem 1.5rem;
+      justify-content: space-between;
+
+      @media (max-width: $sm) {
+        display: block;
+      }
+
+      @media (max-width: $md - 1) {
+        display: block;
+      }
+    }
+
+    &--list {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+
+      @media (max-width: $md) {
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 0;
+        margin-top: 0.5rem;
+      }
+
+      li {
+        margin: 0 1.25rem;
+
+        @media (max-width: $lg - 1) {
+          margin: 0 0.5rem;
+        }
+
+        @media (max-width: $md) {
+          margin: 0 0.5rem;
+        }
+
+        @media (max-width: $sm) {
+          margin: 0.5rem 1.5rem 0.5rem 0rem;
+        }
+
+        a {
+          color: $gray;
+        }
+      }
+    }
+  }
+
+  .custom-dot-btn {
+    border: 2px solid $primary;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 0.938rem;
+      height: 0.938rem;
+      border-radius: 7.5px;
+      position: absolute;
+      background-color: $primary;
+      border: 3px solid $white;
+      top: 0.938rem;
+    }
+  }
+}
+
+.mm-btn-settings {
+  @extend .mm-btn-signup;
+  @extend .btn-outline-primary;
+  height: 40px;
+  width: 100%;
+  float: right;
+  font-size: 0.875rem;
+  font-weight: 400;
+
+  @media (min-width: $md) {
+    width: 200px;
+  }
+}
+
+.mt-vl {
+  border-left: 2px solid $grayOpacity24;
+  height: 2.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.bottom-fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.change-password-modal {
+  max-width: 100%;
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  .input-wrapper {
+    padding-top: 1rem;
+
+    label {
+      display: block;
+    }
+
+    .input-wrap {
+      position: relative;
+
+      input {
+        height: 48px;
+        font-size: 0.875rem;
+        border: 1px solid $grayOpacity24;
+        border-radius: 4px;
+        padding: 0 20px;
+        color: $darkGray;
+        width: 100%;
+
+        &:active,
+        &:focus {
+          border: 1px solid $gray;
+        }
+
+        &::placeholder {
+          color: $gray;
+        }
+      }
+
+      .visibility-icon {
+        position: absolute;
+        right: 1rem;
+      }
+    }
+
+    .feedback {
+      text-align: right;
+      padding-top: 0.5rem;
+    }
+  }
+
+  button {
+    width: 100%;
+    display: block;
+    height: 3rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.subscription-cancel-modal {
+  button {
+    min-width: 164px;
+  }
+}
+
+.mm-setting-modal {
+  &__title {
+    font-weight: normal;
+    font-size: 1.75rem;
+    color: $black;
+  }
+
+  &__sub-title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  &__card {
+    background: $modalCardBg;
+    border-radius: 6px;
+  }
+
+  .mm-copy-link {
+    position: absolute;
+    right: 1.875rem;
+    top: 5.5rem;
+    cursor: pointer;
+  }
+
+  .mm-url-link {
+    padding: 0.5rem 2.813rem 0.5rem 1rem;
+  }
+
+  .mm-setting-modal-checkbox {
+    position: relative;
+  }
+
+  .mm-setting-coming-soon {
+    background: $purpleOpacity20;
+    border-radius: 6px;
+
+    p {
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: $purple;
+    }
+  }
+
+  #mm-allocation-type-modal:checked + label,
+  #mm-allocation-asset-modal:checked + label,
+  #mm-allocation-country-modal:checked + label,
+  #mm-allocation-risk-modal:checked + label {
+    color: $primary;
+  }
+
+  #mm-allocation-type-modal:checked ~ .mm-radio-bg {
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #mm-allocation-asset-modal:checked ~ .mm-radio-bg {
+    transform: translateX(138px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #mm-allocation-country-modal:checked ~ .mm-radio-bg {
+    transform: translateX(276px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #mm-allocation-risk-modal:checked ~ .mm-radio-bg {
+    transform: translateX(412px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .action-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+
+    button:nth-child(2) {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.subscription-cancel-confirmation {
+  z-index: 3;
+}

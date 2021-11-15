@@ -1,0 +1,20 @@
+{
+  "notice": {
+    "title": "Notices",
+    "update": "Last updated on :date",
+    "data": [
+      {
+        "title": "General Notice",
+        "content": "<p>Minx Winks, Minx Measure-up, Money Minx Blog and the Community are presented to you for informational purposes only. Nothing on this Site should be construed as a solicitation or offer, or recommendation, to buy or sell any security. Investing involves risk. Past performance is not a guarantee or indicative of future returns. The value of your investment will fluctuate, and you may gain or lose money. All charts, figures, and graphs are for illustrative purposes only. There can be no assurance that a hypothetical, or actual performance shown on the Site, will lead to the expected results shown or perform in any predictable manner. Individuals featured on this Site or portrayed in Money Minx ads or blog may not be actual clients of Money Minx.</p><p>Money Minx is a financial publisher that does not offer any personal financial advice or advocate the purchase or sale of any security or investment for any specific individual. Members should be aware that investment markets have inherent risks, and past performance does not assure future results. Money Minx has advertising relationships with some of the offers listed on this website. Money Minx does attempt to take a reasonable and good faith approach to maintaining objectivity towards providing referrals that are in the best interest of readers. Money Minx strives to keep its information accurate and up to date.</p><p>Our recommendations rely on historical data. Historical performance is not a guarantee of future returns.</p>"
+      },
+      {
+        "title": "Blog & Third Party Disclosures",
+        "content": "<p>The Money Minx Blog on this Site is for informational purposes only and does not constitute a recommendation to buy or sell securities. You should not rely on this information as the primary basis of your investment, financial, or tax planning decisions. You should consult your legal or tax professional regarding your specific situation. Certain sections of this commentary may contain forward-looking statements that are based on our reasonable expectations, estimates, projections ,and assumptions. Forward-looking statements are not guarantees of future performance and involve certain risks and uncertainties, which are difficult to predict.</p><p>This Site may contain links to other third-party websites, including links to the websites of companies that provide related information, products, and services. These external links are provided solely for the convenience of visitors to this Site, and the inclusion of such links does not necessarily imply an affiliation, sponsorship, or endorsement of those links. Money Minx does not endorse, approve, certify, or control these external Internet addresses and cannot guarantee or assume responsibility for the accuracy, completeness, efficacy, timeliness, or correct sequencing of information located at such addresses. The performance and composite information shown on this Site uses or includes information obtained from third-party sources.</p><p>Third-party data is obtained from sources believed to be reliable but Money Minx cannot guarantee the accuracy, timeliness, completeness, or fitness of any third-party data.</p>"
+      },
+      {
+        "title": "Advertiser Disclosure",
+        "content": "<p>Some of the reviews and articles that appear on the website are from companies from which Money Minx receives compensation. This compensation may impact how and where products appear on this site (including, for example, the order in which they appear). This site does not include all investment companies or all available investment platform offers.</p><p>Per FTC guidelines, this website may be compensated by companies mentioned through advertising, affiliate programs or otherwise. Any references to third party products, rates, or websites are subject to change without notice. Please do the appropriate research before participating in any third party offers.</p>"
+      }
+    ]
+  }
+}

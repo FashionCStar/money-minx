@@ -1,0 +1,445 @@
+.networth-section {
+  padding-top: 55px;
+}
+
+.mm-about-top-section {
+  h1 {
+    padding-bottom: 1.3rem;
+  }
+
+  p {
+    color: $gray;
+  }
+}
+
+.owner-info {
+  h2 {
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: 2.25rem;
+    line-height: 106%;
+
+    @media (min-width: $md) {
+      font-size: 3.5rem;
+    }
+  }
+
+  p {
+    color: $gray;
+    margin-bottom: 2.2rem;
+  }
+}
+
+.networth-text {
+  h2 {
+    padding-bottom: 4px;
+    font-weight: 300;
+    font-size: 2.25rem;
+    line-height: 106%;
+
+    @media (min-width: $md) {
+      font-size: 3.5rem;
+      padding-bottom: 1.3rem;
+    }
+  }
+
+  p {
+    color: $gray;
+  }
+}
+
+.mm-container-right.about-banner-container {
+  padding-right: 0 !important;
+  padding-top: 22px !important;
+}
+
+.about-left-banner {
+  max-width: 92%;
+  float: left;
+}
+
+.about-left-banner button {
+  margin-top: 26px;
+  margin-bottom: 11px;
+}
+
+.about-left-banner button:hover {
+  background: $white !important;
+  border-color: $purple !important;
+}
+
+ul.account-list {
+  padding-left: 0;
+}
+
+ul.account-list li {
+  list-style: none;
+}
+
+.about-left-banner p {
+  margin: 0 0 28px;
+}
+
+.switch-icon {
+  margin-right: 11px;
+}
+
+.account-wrap {
+  padding: 11px 38px 26px;
+  box-shadow: 0 2px 30px #c9d5e8, inset 0 -1px 0 #ebecf1;
+  border-radius: 6px;
+  margin-bottom: 13px;
+  margin-right: -24px;
+}
+
+.account-wrap h4 {
+  margin-bottom: 27px;
+  font-size: 1.125rem;
+  line-height: 23px;
+}
+
+.account-wrap.border {
+  border-left: 6px solid $green !important;
+}
+
+.account-wrap.small-box {
+  margin-left: 19px;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0 -1px 0 #ebecf1;
+}
+
+.account-wrap h4 {
+  font-size: 1.25rem;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.account-wrap.top-box p {
+  font-size: 0.875rem;
+  line-height: 18px;
+}
+
+.account-wrap.bg-white.top-box {
+  padding: 21px 40px 6px;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0 -1px 0 #ebecf1;
+  margin-left: 19px;
+  margin-right: -24px;
+}
+
+.account-list li:nth-child(2n + 1) {
+  margin-bottom: 23px;
+}
+
+.logo-icon {
+  margin-right: 20px;
+}
+
+.owner-section {
+  padding-top: 98px;
+  padding-bottom: 56px;
+}
+
+ul.owner-list li {
+  list-style: none;
+  width: 50%;
+}
+
+ul.owner-list {
+  padding-left: 0;
+  display: flex;
+  padding-top: 18px;
+}
+
+ul.owner-list li a {
+  color: $gray;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+
+  &:hover {
+    color: $darkGray;
+  }
+
+  ul.owner-list li {
+    width: 100%;
+  }
+}
+
+ul.owner-list li a:hover span svg {
+  fill: $twitterBlue;
+}
+
+.mm-container-right.owner-section {
+  overflow: visible !important;
+  padding-left: 120px;
+  margin-left: 0;
+}
+
+.networth-chart {
+  float: right;
+  width: 90%;
+}
+
+.left-owner-img {
+  padding-top: 0;
+}
+
+span.twitter-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 17px;
+  margin-top: -2px;
+}
+
+.networth-section {
+  padding-top: 198px;
+}
+
+.networth-text {
+  padding-top: 40px;
+}
+
+@media (max-width: $lg+1) {
+  .owner-section .owner-info {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: $md) {
+  .about-right-banner {
+    margin-bottom: 101px;
+  }
+
+  .mm-container-right.owner-section {
+    padding-left: 80px;
+    margin-right: 0;
+  }
+
+  .left-owner-img {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 25px;
+    overflow: hidden;
+    width: 564px;
+    height: 250px;
+    border-radius: 6px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      margin-top: -13rem;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mm-container-right.owner-section {
+    padding: 20px;
+  }
+
+  .mm-container-right.about-banner-container {
+    margin: 0 20px;
+  }
+
+  .mm-container-right.networth-section {
+    margin: 0 20px;
+  }
+
+  ul.owner-list {
+    display: block;
+  }
+
+  ul.owner-list li {
+    width: 100%;
+  }
+
+  .networth-section {
+    padding-top: 55px;
+  }
+}
+
+.mm-nav-item.active {
+  border-bottom: 1px solid $purple;
+
+  a {
+    color: #434a55 !important;
+  }
+}
+
+.mm-nav-item {
+  padding: 0 !important;
+}
+
+.mm-nav-item {
+  padding: 0 !important;
+}
+
+.mm-nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mm-nav-item {
+  margin: 0 0.875rem !important;
+
+  @media (min-width: $md + 100) {
+    margin: 0 1.25rem !important;
+  }
+}
+
+.mm-owner-section-img {
+  @media (max-width: $md + 432) {
+    order: 2;
+  }
+}
+
+.mm-square {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+}
+
+.mm-square-1 {
+  background-color: $cyan;
+}
+
+.mm-square-2 {
+  background-color: $blue;
+}
+
+.mm-square-3 {
+  background-color: $red;
+}
+
+.mm-square-4 {
+  background-color: $purple;
+}
+
+.mm-chart-index {
+  background: #081833;
+  display: inline-block;
+  color: $white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 28px rgba(8, 24, 51, 0.44);
+  border-radius: 4px;
+  position: relative;
+  left: 530px;
+  top: -210px;
+
+  @media (max-width: $lg) {
+    left: 395px;
+  }
+
+  span {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  li {
+    margin-bottom: 14px;
+  }
+}
+
+.mm-square-text {
+  margin-top: -19px;
+  margin-left: 40px;
+}
+
+.mm-square-amt {
+  margin-left: 40px;
+}
+
+.mm-mobile-hide {
+  @media (max-width: $sm + 100) {
+    display: none;
+  }
+}
+
+.mm-container-right.owner-section {
+  @media (max-width: $sm + 100) {
+    padding: 0 !important;
+  }
+}
+
+// new changes
+.mm-about-top-section {
+  .info-text {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .mm-about-right-banner {
+    margin-top: 60px;
+
+    @media (min-width: $md) {
+      margin-right: -120px;
+    }
+
+    @media (min-width: $md + 432) {
+      padding-left: 100px;
+    }
+  }
+}
+
+.mm-about-owner-section.bg-white {
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+
+  @media (min-width: $md) {
+    margin-right: -80px;
+    margin-left: -80px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  .owner-list {
+    img {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .left-owner-img {
+    margin-top: 50px;
+    height: 250px;
+
+    overflow: hidden;
+
+    @media (min-width: $md) {
+      width: 100%;
+    }
+
+    @media (min-width: $md + 432) {
+      overflow: unset;
+      width: 384px;
+      height: 587px;
+    }
+
+    img {
+      @media (min-width: $md) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.mm-networth-chart {
+
+  @media (min-width: $md) {
+    box-shadow: unset;
+    border-radius: unset;
+    background: unset;
+  }
+
+  .mm-about-net-worth-chart {
+    @media (min-width: $md) {
+      margin-right: -120px;
+      float: right;
+    }
+  }
+}

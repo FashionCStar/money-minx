@@ -1,0 +1,29 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "name": "Continental",
+      "slug": "continental",
+      "description": "Continental Food are foods that are available everywhere",
+      "featuredImage": "ks-12853075626557451000.jpg",
+      "children": []
+    },
+    {
+      "id": 2,
+      "name": "Nepali",
+      "slug": "nepali",
+      "description": "Nepali food are less in spicy than indian but more than others for sure",
+      "featuredImage": "ks-2890018588830923718.png",
+      "children": []
+    },
+    {
+      "id": 3,
+      "name": "Chinese",
+      "slug": "Chinese",
+      "description": "Chinese food seems to be more delicious",
+      "featuredImage": "ks-13769233161456101529.jpeg",
+      "children": []
+    }
+  ],
+  "paging": null
+}

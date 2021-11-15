@@ -1,0 +1,5 @@
+<svg width="60" height="48" viewBox="0 0 60 48" fill="none" class="action-back-button"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.75" y="0.75" width="58.5" height="46.5" rx="3.25" class="action-back-button" stroke="#534CEA" stroke-width="1.5"/>
+  <path d="M27.3019 15L18 24M18 24L27.3019 33M18 24H42" class="action-back-button" stroke="#534CEA" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

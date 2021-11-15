@@ -1,0 +1,26 @@
+{
+  "SAVE": "Save",
+  "FOOD": "Food",
+  "MENU": "Menu",
+  "DASHBOARD": "Dashboard",
+
+  "USER": "User",
+  "PROFILE": "Profile",
+  "LOGOUT": "Log Out",
+
+  "ADD_FOOD": "Add food",
+  "FOOD_LIST": "Food List",
+  "FOOD_GRID": "Food Grid",
+  "FOOD_ITEM": "Food item",
+  "FOOD_CATEGORY": "Food Category",
+
+  "ADD_MENU": "Add Menu",
+  "BAKERY_MENU": "Bakery Menu",
+
+  "PHOTO": "Upload Photo",
+  "PHONE_NUMBER": "Phone Number",
+
+  "HOME_DELIVERY": "Home Delivery",
+  "RESTAURANT_TYPE": "Restaurant Type",
+  "RESTAURANT_NAME": "Restaurant Name"
+}

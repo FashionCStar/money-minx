@@ -1,0 +1,5 @@
+<svg width="26" height="38" viewBox="0 0 26 38" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect x="1" y="1" width="24" height="36" rx="12" stroke="#969EAC" stroke-width="1.5"/>
+    <rect className='scroll-dot' x="11" y="10" width="4" height="4" rx="2" fill="#969EAC"/>
+</svg>

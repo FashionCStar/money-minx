@@ -1,0 +1,292 @@
+a {
+  cursor: pointer;
+}
+.sub-ended-wrapper {
+  padding: 20px 5px;
+}
+.subs-ended-msg-box {
+  background: $white;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0px -1px 0px #ebecf1;
+  border-radius: 6px;
+  padding: 17px 42px 15px;
+  border-left: 4px solid $redAlert;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 65px;
+  max-width: 100%;
+}
+.subs-ended-msg-box p {
+  margin: 0;
+  color: $gray;
+}
+.subs-ended-msg-box h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.subs-ended-msg-box p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+span.warning-icon {
+  float: right;
+  margin-top: -53px;
+}
+.subs-ended-left {
+  max-width: 395px;
+}
+.subscription-account-wrap {
+  display: table;
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+}
+.subscription-account-wrap h3 {
+  font-weight: 600;
+  padding: 26px 41px;
+  font-size: 1.25rem;
+  background: $white;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0px -1px 0px #ebecf1;
+  border-radius: 6px;
+}
+ul.subscribed-list {
+  padding-left: 0;
+}
+ul.subscribed-list li {
+  list-style: none;
+}
+.delete-btn {
+  float: right;
+  margin-top: -45px;
+
+  &:hover{
+    color: $white;
+    background-color: $redAlert;
+
+    a {
+      color: $white;
+    }
+  }
+}
+ul.subscribed-list li .account-wrap {
+  padding: 41px 40px;
+}
+ul.subscribed-list li .account-wrap p {
+  margin: 0;
+}
+ul.subscribed-list li .account-wrap p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+ul.subscribed-list li .account-wrap {
+  background: $white;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0px -1px 0px #ebecf1;
+}
+ul.subscribed-list li:last-child {
+  margin-bottom: 41px;
+}
+
+.trash-icon {
+  float: right;
+  margin-top: -46px;
+  font-size: 0.87rem;
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid $redAlert;
+  stroke: $redAlert;
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  display: inline-block;
+  padding: 12px;
+  background: none;
+  text-align: center;
+  cursor: pointer;
+
+  &.small-icon {
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+  }
+
+  &:hover {
+    background-color: $redAlert;
+    stroke: $white;
+    box-shadow: 2px 4px 8px $pinterestRedGlow;
+
+    .trash-icon-color {
+      stroke: $white;
+    }
+  }
+}
+.edit-icon {
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid $purple;
+  stroke: $purple;
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  display: inline-block;
+  padding: 12px;
+  background: none;
+  text-align: center;
+  cursor: pointer;
+
+  &.small-icon {
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+  }
+
+  &:hover {
+    background-color: $purple;
+    stroke: $white;
+    box-shadow: 2px 4px 8px $purpleGlow;
+
+    .edit-icon-color {
+      stroke: $white;
+    }
+  }
+}
+.container-fluid.subscription-ended {
+  background: $white;
+}
+
+// subscription bottom
+
+.back-btn {
+  margin-right: 100px;
+
+  @media (max-width: $lg+1) {
+    margin-right: 14px;
+  }
+
+  &:hover {
+    .action-back-button {
+      stroke: $white;
+      fill: $purple;
+    }
+  }
+}
+
+.subscription-bottom-text {
+  display: table;
+  width: 100%;
+}
+
+.subscription-bottom-text p {
+  display: inline-block;
+  vertical-align: middle;
+  color: $redAlert;
+  margin-right: 27px;
+  margin-bottom: 0;
+}
+.finish-btn {
+  background: rgba(150, 158, 172, 0.4);
+  height: 48px;
+  width: 186px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  outline: none;
+  border: none;
+}
+.container-fluid.subscription-ended.bottom {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.finish-btn a {
+  color: $white;
+}
+.subs-content-left {
+  font-size: 1.5rem;
+}
+.subs-content.three p {
+  font-size: 1rem;
+}
+.subs-content.four .finish-btn {
+  float: right;
+}
+.subs-content.four {
+  display: table-cell;
+  width: 10%;
+  vertical-align: middle;
+}
+.subs-content.three {
+  display: none;
+  width: 51%;
+  vertical-align: middle;
+
+  @media (min-width:$md) {
+    display: table-cell;
+  }
+}
+.subs-content.two {
+  display: table-cell;
+  width: 20%;
+  vertical-align: middle;
+  max-width: 400px;
+}
+.subs-content.one {
+  display: table-cell;
+  width: 12%;
+  vertical-align: middle;
+}
+
+//Subscription three
+.subs-ended-msg-box.positive {
+  border-color: $green;
+}
+.subscription-bottom-text.positive p {
+  color: $green;
+}
+.subscription-bottom-text.positive .finish-btn {
+  background: $purple;
+}
+.subscription-bottom-text.positive .subs-content.three {
+  width: 63%;
+}
+.subscription-bottom-text.positive .subs-content.two {
+  width: 3%;
+}
+
+@media (max-width: $md) {
+  .hidden-text {
+    display: none;
+  }
+  .container-fluid.subscription-ended.bottom {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: $sm) {
+  .subs-ended-msg-box {
+    padding: 14px;
+  }
+  span.warning-icon {
+    float: none;
+    margin-top: 0;
+    position: static;
+    display: none;
+  }
+  .delete-btn {
+    float: none;
+    margin-top: 21px;
+    width: 100%;
+  }
+  ul.subscribed-list li .account-wrap {
+    padding: 20px;
+  }
+  .container-fluid.subscription-ended {
+    padding: 0 20px;
+  }
+  .subscription-bottom-text {
+    position: static;
+  }
+  .subscription-bottom-text.positive {
+    display: block;
+  }
+}

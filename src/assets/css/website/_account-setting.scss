@@ -1,0 +1,962 @@
+.bg-white.credentials-wrapper.account-setting .credentials-content {
+  max-width: 100vw;
+  padding-left: 35px;
+  padding-right: 5px;
+
+  @media (min-width: $med) {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+  @media (min-width: $desk) {
+    max-width: 665px;
+  }
+}
+
+.credentials-wrapper li {
+  list-style: none;
+}
+
+ul.bank-list {
+  padding-left: 0;
+  margin-bottom: 38px;
+  display: flex;
+  overflow-x: scroll;
+
+  li {
+    height: 80px;
+    list-style: none;
+    width: 124px;
+    min-width: 124px;
+    border-radius: 4px;
+    margin-right: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1.5px solid $grayOpacity40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.selected {
+      border-color: $primary;
+    }
+
+    a {
+      outline: none;
+      color: $darkGray;
+      font-size: 1.125rem;
+      font-weight: 500;
+      line-height: 1.4375rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+      }
+    }
+
+    &.completed {
+      border: 1px solid $green;
+    }
+  }
+
+  @media (max-width: $sm) {
+    li {
+      margin-right: 11px;
+      height: 76px;
+      width: 93px;
+      padding: 26px 8px;
+      overflow: hidden;
+
+      svg {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.flex-box {
+  display: block;
+  align-items: center;
+  justify-content: left;
+}
+
+.form-heading .nav {
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  li {
+    white-space: nowrap;
+  }
+}
+
+.form-heading button {
+  margin-right: 48px;
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+  display: inline-block;
+  color: $gray;
+  position: relative;
+
+  &.account-btn {
+    font-size: 1.125rem;
+  }
+}
+
+.form-heading button:hover {
+  text-decoration: none;
+  color: initial;
+}
+.form-heading button:hover {
+  color: $gray !important;
+}
+
+.form-heading button.completed:not(.active) {
+  color: $green;
+
+  &:hover {
+    color: lighten($color: $green, $amount: 10);
+  }
+}
+
+.form-heading button.active {
+  color: $darkGray;
+}
+
+.form-heading button.active::before {
+  border-bottom: 2.5px solid $primary;
+  position: absolute;
+  height: 100%;
+  width: 93%;
+  content: '';
+  bottom: 0;
+}
+
+.form-heading {
+  border-bottom: 1px solid $grayOpacity24;
+}
+
+.credentials-wrapper.account-setting .form-wrap input {
+  color: $darkGray;
+}
+
+.form-heading {
+  margin-bottom: 40px;
+}
+
+.account-setting .credentials-content .form-wrap .setting-button-wrap button {
+  width: auto;
+  display: inline-block;
+  width: 142px;
+  margin-right: 22px;
+}
+
+.form-subheading {
+  font-size: 0.875rem;
+  color: $black;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: inline-block;
+  margin-right: 0;
+
+  @media (min-width: $md) {
+    margin-right: 20px;
+  }
+}
+.credentials-content .form-wrap .form-heading button {
+  width: auto;
+  display: inline;
+  margin-bottom: 0;
+  background: none;
+  border: 0;
+}
+.form-subheading svg {
+  margin: 0 0 2px 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.category-list li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.account-category .category-list {
+  display: table;
+  // border: 1.5px solid $grayOpacity24;
+  width: 100%;
+  border-radius: 4px;
+  padding-left: 0;
+}
+
+.account-category .category-list a {
+  color: #969eac;
+  height: 48px;
+  display: inline-block;
+  padding-top: 4px;
+  width: 100%;
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 400;
+
+  &.active,
+  &:hover {
+    color: $primary;
+  }
+}
+
+.account-category .category-list li {
+  border: 1.5px solid $grayOpacity24;
+}
+
+.account-category {
+  .category-list {
+    li {
+      &:nth-child(2),
+      &:first-child {
+        border-right: none;
+      }
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        border-left: none;
+      }
+    }
+  }
+}
+
+.account-category .category-list li.active a {
+  color: $primary;
+}
+
+
+.account-category .category-list li.active ~ .border-bg-slider{
+  border: 1.5px solid $primary;
+  border-radius: 4px;
+  width: 11.813rem;
+  height: 100%;
+  position: absolute;
+}
+
+.account-category ul.category-list {
+  position: relative;
+} 
+
+.account-category .category-list li:first-child.active ~ .border-bg-slider {
+  transform: translateX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.account-category .category-list li:nth-child(2).active ~ .border-bg-slider{
+  transform: translateX(190px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.account-category .category-list li:nth-child(3).active ~ .border-bg-slider{
+  transform: translateX(380px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.account-category .category-list a:hover {
+  text-decoration: none;
+}
+
+.account-type-list li {
+  width: 47%;
+  float: left;
+  margin-bottom: 33px;
+}
+
+.account-type-list {
+  margin-bottom: 0;
+}
+
+.account-type select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Some browsers will not display the caret when using calc, so we put the fallback first */
+  background: url('../../images/signup/arrow.svg') white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+  background: url('../../images/signup/arrow.svg') white no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
+  display: table;
+  width: 100%;
+  height: 48px;
+  padding: 1px 16px;
+  border: 1px solid $grayOpacity24;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: $darkGray;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $gray;
+  }
+}
+
+.account-type-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 0;
+}
+
+.form-wrap .estimated-annual-return input {
+  width: 20px;
+  height: 20px;
+  margin-right: 23px;
+}
+
+.form-wrap .right-input input {
+  width: 20px;
+  height: 20px;
+}
+
+.middle-input-wrap {
+  position: relative;
+}
+
+.middle-input-wrap .input-wrap {
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.right-input {
+  position: absolute;
+  display: contents;
+  right: 0;
+  top: -2%;
+  width: 47%;
+
+  &.radio {
+    top: 25%;
+  }
+
+  @media (max-width: $sm) {
+    &.radio {
+      margin-left: -28px;
+      display: inline;
+    }
+  }
+
+  @media (max-width: $md) {
+    position: static;
+    display: block;
+
+    &.radio {
+      margin-left: -28px;
+    }
+  }
+}
+
+.account-setting #feedback {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
+.input-wrap .left-input input {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.credentials-wrapper.account-setting .form-wrap input[type='radio'] {
+  margin-right: 8px;
+  margin-left: 29px;
+  height: 20px;
+  width: 20px;
+}
+
+.estimated-annual-return input[type='number'] {
+  width: 100%;
+  height: 48px;
+  margin-top: 20px;
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+.form-wrap .right-input {
+  input[type='text'],
+  input[type='number'] {
+    height: 48px;
+    width: 100%;
+
+    @media (min-width: $md) {
+      min-width: 263px;
+    }
+  }
+}
+
+.estimated-annual-return {
+  border-top: 1px solid $grayOpacity24;
+  padding-top: 41px;
+  position: relative;
+
+  .mm-button {
+    width: 160px !important;
+  }
+  p {
+    font-size: 14px;
+  }
+  .estimate-left {
+    width: 52%;
+  }
+  .estimate-right {
+    width: 48%;
+    float: right;
+  }
+}
+
+.account-setting .top-content-wrap {
+  max-width: 372px;
+}
+
+.credentials-wrapper.account-setting .form-wrap .estimated-annual-return input[type='radio'] {
+  margin-left: 0;
+}
+
+.left-input span.form-subheading {
+  margin-top: 14px;
+}
+
+.account-type-list li .account-list-content {
+  float: right;
+  width: 100%;
+}
+
+.account-type-list li .account-list-content select {
+  width: 100%;
+}
+
+.left-input.employer-match input {
+  margin-left: 9px !important;
+}
+
+.left-input.employer-match p {
+  color: $darkGray;
+}
+
+.form-divider {
+  border-top: 1px solid $grayOpacity24;
+  padding-top: 34px;
+  margin-top: 1rem;
+}
+
+.estimated-top-content .form-subheading-right {
+  width: 66%;
+  font-size: 0.875rem;
+  text-align: right;
+  color: $gray;
+  display: inline-block;
+}
+
+.estimated-top-content.flex-box {
+  align-items: baseline;
+}
+
+.estimated-annual-return span.form-subheading {
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 0;
+
+  @media (min-width: $md) {
+    margin-bottom: 20px;
+  }
+}
+
+.right-input.symbol input {
+  position: relative;
+}
+
+.symbol-icon {
+  position: absolute;
+  right: 7%;
+  top: 20%;
+  color: $gray;
+  background: $white;
+}
+
+.middle-input-wrap p {
+  margin-bottom: 0;
+}
+
+.cancel-btn.mm-btn-primary-outline {
+  color: $primary;
+  border: 1.5px solid $primary !important;
+}
+
+.cancel-btn.mm-btn-primary-outline:hover {
+  color: $white;
+  border: 1.5px solid $primary !important;
+  background: $primary !important;
+}
+
+.submit.mm-btn-primary-outline:hover {
+  background: $white;
+  color: $primary;
+}
+
+.submit.mm-btn-primary-outline {
+  margin-right: 0 !important;
+}
+
+.learn-more-security a {
+  margin-left: 19px;
+}
+
+.setting-button-wrap.flex-box {
+  justify-content: right !important;
+  border-bottom: 1px solid $grayOpacity24;
+  padding-bottom: 28px;
+  margin-bottom: 30px;
+}
+
+.estimated-top-content span.form-heading {
+  margin-bottom: 0 !important;
+}
+
+.flex-box.learn-more-security {
+  margin: 3rem 0 6rem 0;
+  border-top: 1px solid $grayOpacity24;
+  height: 1.5rem;
+  padding-top: 2rem;
+}
+
+.account-setting-form {
+  .form-row {
+    margin-top: 40px;
+  }
+
+  .hidden {
+    // comment this code to see all form fields
+    display: none !important;
+  }
+
+  .account-type-list {
+    input[type='text'],
+    input[type='date'],
+    input[type='number'] {
+      width: 100%;
+    }
+  }
+  .form-divider,
+  .form-row {
+    font-size: 14px;
+    input[type='radio'] + label::after {
+      content: '';
+      height: 8px;
+      width: 8px;
+      top: 6px;
+      left: 6px;
+      background: $primary;
+      position: absolute;
+      border-radius: 100%;
+      opacity: 0;
+      z-index: 999;
+      transition: opacity 0.2s ease-in-out;
+    }
+    input[type='radio'] {
+      height: 20px !important;
+      left: 0;
+      opacity: 0.2;
+      position: absolute;
+      top: 0;
+      width: 20px !important;
+      z-index: 999;
+    }
+    input[type='radio'] + label::before {
+      height: 20px;
+      width: 20px;
+      border: 1px solid $primary;
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: '';
+      border-radius: 100%;
+      opacity: 0.24;
+    }
+    input[type='radio']:checked + label::after {
+      opacity: 1;
+    }
+    input[type='radio'] {
+      position: absolute;
+      opacity: 0;
+      z-index: 9999;
+    }
+  }
+}
+
+.estimated-annual-return input[type='radio'] + label::after {
+  content: '';
+  height: 8px;
+  width: 8px;
+  top: 6px;
+  left: 6px;
+  background: $primary;
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0;
+  z-index: 999;
+  transition: opacity 0.2s ease-in-out;
+}
+.estimated-annual-return input[type='radio'] {
+  height: 20px !important;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 20px !important;
+  z-index: 999;
+}
+.estimated-annual-return .estimate-left input[type='radio'] {
+  top: 8px;
+}
+.estimated-annual-return label {
+  position: relative;
+  padding-left: 40px;
+}
+
+.estimated-annual-return input[type='radio'] + label::before {
+  height: 20px;
+  width: 20px;
+  border: 1px solid $primary;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  border-radius: 100%;
+  opacity: 0.24;
+}
+
+.estimated-annual-return label {
+  position: relative;
+}
+
+.estimated-annual-return input[type='radio']:checked + label::after {
+  opacity: 1;
+}
+
+.credentials-wrapper.account-setting .form-wrap .estimated-annual-return input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  z-index: 9999;
+}
+
+.submit.mm-btn-primary-outline:hover {
+  background-color: $white !important;
+  color: $primary !important;
+  border: 1px solid $primary !important;
+}
+
+.middle-input-wrap .input-wrap input[type='radio'] {
+  opacity: 0;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  z-index: 999;
+}
+
+.middle-input-wrap .input-wrap label {
+  position: relative;
+  padding-left: 55px;
+}
+
+.middle-input-wrap .input-wrap input + label::before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 1px solid $primary;
+  border-radius: 100%;
+  left: 28px;
+  opacity: 0.24;
+  top: 3px;
+}
+
+.middle-input-wrap .input-wrap input + label::after {
+  background: $primary;
+  height: 8px;
+  width: 8px;
+  content: '';
+  position: absolute;
+  left: 34px;
+  border-radius: 100%;
+
+  opacity: 0;
+  top: 9px;
+}
+
+.middle-input-wrap .input-wrap input:checked + label::after {
+  opacity: 1;
+}
+
+.left-input.employer-match label {
+  padding-left: 35px;
+  margin-right: 23px;
+}
+
+.left-input.employer-match label::before {
+  left: 7px;
+  top: 3px;
+}
+
+.input-wrap.flex-box .left-input.employer-match label::before {
+  top: 3px;
+  left: 8px;
+}
+
+.input-wrap.flex-box .left-input.employer-match label::after {
+  left: 14px;
+}
+
+.input-wrap.flex-box .left-input.employer-match input {
+  top: 14px;
+}
+
+//Responsive
+@media (max-width: $sm) {
+  .form-heading button {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .account-type-list li {
+    width: 100%;
+    float: none;
+  }
+
+  .account-type-list li .account-list-content {
+    float: none;
+    width: 100%;
+  }
+
+  .flex-box {
+    display: block;
+  }
+
+  .estimated-annual-return .estimate-right {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .estimated-annual-return input[type='number'] {
+    float: none;
+  }
+
+  .estimated-annual-return span.form-subheading {
+    margin-bottom: 11px;
+    display: block;
+  }
+
+  .symbol-icon {
+    top: 63%;
+  }
+
+  .form-wrap .right-input input[type='text'] {
+    width: 100%;
+    display: block;
+  }
+}
+
+//Newly added
+
+ul.weekday,
+ul.weekdate {
+  display: table;
+  width: 100%;
+  padding-left: 0;
+
+  li {
+    float: left;
+    width: 14.28%;
+    display: table-cell;
+    color: $white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 3px;
+  }
+
+  li.active {
+    background: $primary;
+    border-radius: 3px;
+  }
+}
+
+.weekday li {
+  color: $gray !important;
+}
+
+.weekdate li {
+  margin-bottom: 4px;
+}
+
+.calender-wrap {
+  max-width: 301px;
+  background: $darkBg;
+  padding: 21px 17px 1px;
+  border-radius: 4px;
+  box-shadow: 0 4px 28px rgba(8, 24, 51, 0.44);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 26px;
+    top: -7px;
+    z-index: 999;
+    border-color: black transparent;
+    border-style: solid;
+    border-width: 0 9px 9px 9px;
+    height: 0;
+    width: 0;
+    content: '';
+  }
+}
+.calender-header h2 {
+  font-size: 0.875rem;
+  color: $white;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+span.prev-icon {
+  position: absolute;
+  left: 11px;
+  top: -1px;
+}
+span.next-icon {
+  position: absolute;
+  right: 11px;
+  top: -1px;
+  transform: rotate(180deg);
+}
+
+.next-icon.active path {
+  stroke: $gray;
+}
+
+.account-type-list {
+  &__dropdown {
+    height: 48px;
+  }
+}
+
+.estimate-annual-block {
+  &__btn {
+    @media (min-width: $md) {
+      width: 115px !important;
+    }
+
+    @media (min-width: $md + 224) {
+      width: 140px !important;
+    }
+  }
+
+  &__btn-cancel {
+    border: 1.5px solid $purple;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+
+  &__checkbox {
+    position: relative;
+
+    span {
+      color: gray;
+    }
+  }
+
+  .custom-checkbox {
+    cursor: pointer;
+    font-size: 1.375rem;
+    position: absolute;
+    top: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 1px solid $gray;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+  }
+
+  .custom-checkbox input:checked ~ .checkmark {
+    background-color: $white;
+  }
+
+  .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+
+  .custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .custom-checkbox .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 7px;
+    height: 0.75rem;
+    border: solid $purple;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+}
+.react-datepicker-wrapper {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.sub-label {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: $gray;
+  display: block;
+
+  @media (min-width: $sm) {
+    white-space: nowrap;
+  }
+}
+.form-field-group {
+  width: 100%;
+  position: relative;
+
+  @media (min-width: $md) {
+    &.single-field {
+      width: 47%;
+    }
+  }
+}
+.input-add-on {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding: 16px 5px 0 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: $gray;
+}

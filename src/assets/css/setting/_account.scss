@@ -1,0 +1,67 @@
+.mm-account-overview {
+  &__add-account {
+    font-weight: 500;
+    font-size: 1.25rem;
+
+    .upgrade-caption {
+      display: block;
+      font-size: 0.875rem;
+      color: #969eac;
+      margin-top: 5px;
+    }
+  }
+
+  &__error {
+    border-left: 3px solid $redAlert;
+  }
+
+  &__info {
+    border-left: 3px solid $yellow;
+  }
+
+  &__peer-street {
+    border-left: 3px solid $green;
+  }
+
+  &__account {
+    border-left: 3px solid $blue;
+  }
+
+  &__error-title,
+  &__peer-street-title,
+  &__info-title {
+    font-weight: $lighter;
+    font-size: 0.875rem;
+  }
+
+  &__error-title {
+    color: $redAlert;
+  }
+
+  &__info-title {
+    color: $yellow;
+  }
+
+  &__peer-street-title {
+    color: $green;
+  }
+
+  &__block-title {
+    font-size: 1.125rem;
+    font-weight: $normal;
+  }
+
+  &__update-link {
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+
+  &__delete-link {
+    font-weight: $normal;
+    font-size: 0.875rem;
+  }
+}
+.accounts-provider-logo {
+  max-height: 40px;
+  max-width: 100px;
+}

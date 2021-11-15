@@ -1,0 +1,402 @@
+[
+  {
+    "id": 26,
+    "yodleeId": 12150381,
+    "accountName": "Lendin Club personal loan - x7608",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "PERSONAL_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Personal",
+      "mmCategory": "Liabilities",
+      "id": 26
+    },
+    "formField": null
+  },
+  {
+    "id": 27,
+    "yodleeId": 12150371,
+    "accountName": "Joint Checking - 9060",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "CHECKING",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Checking",
+      "mmCategory": "Other Assets",
+      "id": 27
+    },
+    "formField": null
+  },
+  {
+    "id": 28,
+    "yodleeId": 12150369,
+    "accountName": "College Loan - x8946",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "STUDENT_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Student",
+      "mmCategory": "Liabilities",
+      "id": 29
+    },
+    "formField": null
+  },
+  {
+    "id": 29,
+    "yodleeId": 12150368,
+    "accountName": "Citi Automobile Loan - x1563",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "AUTO_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Car",
+      "mmCategory": "Liabilities",
+      "id": 30
+    },
+    "formField": null
+  },
+  {
+    "id": 30,
+    "yodleeId": 12150366,
+    "accountName": "ROTH IRA - 4619",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "ROTH_IRA",
+      "mmAccountType": "Retirement (IRA, 401k, etc.)",
+      "mmAccountSubType": "IRA Roth",
+      "mmCategory": "Investment Assets",
+      "id": 32
+    },
+    "formField": null
+  },
+  {
+    "id": 31,
+    "yodleeId": 12150367,
+    "accountName": "Chase Mortgage - 0038",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "MORTGAGE",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Mortgage",
+      "mmCategory": "Liabilities",
+      "id": 31
+    },
+    "formField": null
+  },
+  {
+    "id": 32,
+    "yodleeId": 12150370,
+    "accountName": "Lendin Club personal loan - x7608",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "PERSONAL_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Personal",
+      "mmCategory": "Liabilities",
+      "id": 28
+    },
+    "formField": null
+  },
+  {
+    "id": 33,
+    "yodleeId": 12150364,
+    "accountName": "CMA -Joint Brokerage - 3547",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "CASH_MANAGEMENT_ACCOUNT",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Cash Management",
+      "mmCategory": "Investment Assets",
+      "id": 33
+    },
+    "formField": null
+  },
+  {
+    "id": 34,
+    "yodleeId": 12150363,
+    "accountName": "CashRewardOld - 0784",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "creditCard",
+      "yodleeAccountType": "CREDIT",
+      "mmAccountType": "Credit Card",
+      "mmAccountSubType": "Credit",
+      "mmCategory": "Liabilities",
+      "id": 35
+    },
+    "formField": null
+  },
+  {
+    "id": 35,
+    "yodleeId": 12150365,
+    "accountName": "Retirement Savings Plan - 4258",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "EMPLOYEE_SAVINGS_PLAN",
+      "mmAccountType": "Retirement (IRA, 401k, etc.)",
+      "mmAccountSubType": "Employee Savings Plan",
+      "mmCategory": "Investment Assets",
+      "id": 34
+    },
+    "formField": null
+  },
+  {
+    "id": 36,
+    "yodleeId": 12150362,
+    "accountName": "My CD - 8878",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "CD",
+      "mmAccountType": "Certificate of Deposit (CD)",
+      "mmAccountSubType": "",
+      "mmCategory": "Investment Assets",
+      "id": 36
+    },
+    "formField": null
+  },
+  {
+    "id": 37,
+    "yodleeId": 12150361,
+    "accountName": "Joint Savings - 7159",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "SAVINGS",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Savings",
+      "mmCategory": "Other Assets",
+      "id": 37
+    },
+    "formField": null
+  },
+  {
+    "id": 38,
+    "yodleeId": 12150360,
+    "accountName": "Joint Checking - 9060",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "CHECKING",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Checking",
+      "mmCategory": "Other Assets",
+      "id": 38
+    },
+    "formField": null
+  },
+  {
+    "id": 39,
+    "yodleeId": 12143123,
+    "accountName": "TESTDATA1",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "SAVINGS",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Savings",
+      "mmCategory": "Other Assets",
+      "id": 40
+    },
+    "formField": null
+  },
+  {
+    "id": 40,
+    "yodleeId": 12150373,
+    "accountName": "My CD - 8878",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "CD",
+      "mmAccountType": "Certificate of Deposit (CD)",
+      "mmAccountSubType": "",
+      "mmCategory": "Investment Assets",
+      "id": 45
+    },
+    "formField": null
+  },
+  {
+    "id": 41,
+    "yodleeId": 12150378,
+    "accountName": "Chase Mortgage - 0038",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "MORTGAGE",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Mortgage",
+      "mmCategory": "Liabilities",
+      "id": 46
+    },
+    "formField": null
+  },
+  {
+    "id": 42,
+    "yodleeId": 12143125,
+    "accountName": "CREDIT CARD",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "creditCard",
+      "yodleeAccountType": "OTHER",
+      "mmAccountType": "Credit Card",
+      "mmAccountSubType": "Other",
+      "mmCategory": "Liabilities",
+      "id": 39
+    },
+    "formField": null
+  },
+  {
+    "id": 43,
+    "yodleeId": 12150376,
+    "accountName": "Retirement Savings Plan - 4258",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "EMPLOYEE_SAVINGS_PLAN",
+      "mmAccountType": "Retirement (IRA, 401k, etc.)",
+      "mmAccountSubType": "Employee Savings Plan",
+      "mmCategory": "Investment Assets",
+      "id": 44
+    },
+    "formField": null
+  },
+  {
+    "id": 44,
+    "yodleeId": 12143121,
+    "accountName": "TESTDATA",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "CHECKING",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Checking",
+      "mmCategory": "Other Assets",
+      "id": 41
+    },
+    "formField": null
+  },
+  {
+    "id": 45,
+    "yodleeId": 12150379,
+    "accountName": "Citi Automobile Loan - x1563",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "AUTO_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Car",
+      "mmCategory": "Liabilities",
+      "id": 43
+    },
+    "formField": null
+  },
+  {
+    "id": 46,
+    "yodleeId": 12150380,
+    "accountName": "College Loan - x8946",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "loan",
+      "yodleeAccountType": "STUDENT_LOAN",
+      "mmAccountType": "Loan",
+      "mmAccountSubType": "Student",
+      "mmCategory": "Liabilities",
+      "id": 42
+    },
+    "formField": null
+  },
+  {
+    "id": 47,
+    "yodleeId": 12150375,
+    "accountName": "CMA -Joint Brokerage - 3547",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "CASH_MANAGEMENT_ACCOUNT",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Cash Management",
+      "mmCategory": "Investment Assets",
+      "id": 47
+    },
+    "formField": null
+  },
+  {
+    "id": 48,
+    "yodleeId": 12150372,
+    "accountName": "Joint Savings - 7159",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "bank",
+      "yodleeAccountType": "SAVINGS",
+      "mmAccountType": "Bank",
+      "mmAccountSubType": "Savings",
+      "mmCategory": "Other Assets",
+      "id": 50
+    },
+    "formField": null
+  },
+  {
+    "id": 49,
+    "yodleeId": 12150374,
+    "accountName": "CashRewardOld - 0784",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "creditCard",
+      "yodleeAccountType": "CREDIT",
+      "mmAccountType": "Credit Card",
+      "mmAccountSubType": "Credit",
+      "mmCategory": "Liabilities",
+      "id": 49
+    },
+    "formField": null
+  },
+  {
+    "id": 50,
+    "yodleeId": 12150377,
+    "accountName": "ROTH IRA - 4619",
+    "providerName": "Dag Site",
+    "profileId": 12,
+    "category": {
+      "yodleeContainer": "investment",
+      "yodleeAccountType": "ROTH_IRA",
+      "mmAccountType": "Retirement (IRA, 401k, etc.)",
+      "mmAccountSubType": "IRA Roth",
+      "mmCategory": "Investment Assets",
+      "id": 48
+    },
+    "formField": null
+  }
+]

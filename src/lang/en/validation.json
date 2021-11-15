@@ -1,0 +1,11 @@
+{
+  "REQUIRED_FIELD": "Field is required",
+  "PASSWORD_MATCH": "Passwords do not match",
+  "INVALID_EMAIL": "Please enter a valid email",
+  "INVALID_PASSWORD": "Please enter a valid password",
+  "EMAIL_IS_EMPTY": "You forgot to share your email",
+  "PWD_IS_EMPTY": "You forgot to include a password",
+  "INVALID_PASSWORD_LENGTH": "Invalid password length",
+  "FORGOT_TERMS": "You forgot to accept our terms of service",
+  "PASSWORD_ERROR": "Password must be at least 8 characters long and include at least 1 special character and 1 number"
+}

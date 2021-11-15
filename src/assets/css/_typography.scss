@@ -1,0 +1,57 @@
+.large-heading-light {
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 2.8125rem;
+
+  @media (min-width: $md) {
+    font-size: 3.5rem;
+    line-height: 3.6875rem;
+  }
+}
+
+.highlighted-text {
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.3em;
+  color: $purple;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  @media (min-width: $sm) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  @media (min-width: $md) {
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+  }
+}
+
+.highlighted-text-light {
+  font-size: 0.875rem;
+  letter-spacing: 0.125em;
+  color: $purple;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.purple-links {
+  &:hover {
+    border-bottom: 1.5px solid $purple;
+    transition-duration: 0s;
+    color: $purple;
+  }
+}
+
+.red-links {
+  &:hover {
+    border-bottom: 1.5px solid $redAlert;
+    transition-duration: 0s;
+    color: $redAlert;
+  }
+}
+
+.text-warning {
+  color: $yellow !important;
+}

@@ -1,0 +1,93 @@
+.plan-table-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mm-profile-container {
+  max-width: 100% !important;
+
+  .mm-plan-overview {
+    &__card {
+      min-height: 52rem;
+
+      @media (min-width: $lg - 200) and (max-width: $lg) {
+        min-height: 56rem;
+      }
+    }
+
+    &__recommend-card {
+      border-top: 4px solid $primary;
+
+      >.card-body {
+        padding: 1.3rem 2.5rem;
+      }
+    }
+
+    &__card-title {
+      font-size: 1.25rem;
+      font-weight: $normal;
+
+      &--sub {
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+    }
+
+    &__card-body {
+      p {
+        font-weight: $lighter;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+      }
+    }
+
+    &__card-footer {
+      position: absolute;
+      left: 2.5rem;
+      right: 2.5rem;
+      bottom: 2rem;
+    }
+
+    &__plan-btn {
+      width: 100%;
+      font-size: 0.875rem;
+      font-weight: bold;
+      height: 3rem;
+      border: 1.5px solid $primary;
+
+      &--current {
+        border: none;
+        color: $darkGray !important;
+        background: none !important;
+
+        &:hover {
+          border: none;
+          color: $darkGray !important;
+          background: none !important;
+          transform: none;
+          cursor: default;
+        }
+      }
+    }
+
+    &__switch {
+      &--btn {
+        width: 8.75rem;
+        height: 3rem;
+        font-size: 0.875rem;
+        font-weight: bold;
+        border: 1.5px solid $primary;
+      }
+    }
+
+    &__card-recommend {
+      position: absolute;
+      top: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: $purpleOpacity40;
+      font-weight: bold;
+      font-size: 0.688rem;
+    }
+  }
+}

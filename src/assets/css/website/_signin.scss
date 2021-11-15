@@ -1,0 +1,486 @@
+.auth-wrapper {
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+
+  .row {
+
+    margin-right: 0;
+
+    @media (min-width: $sm) {
+    margin-right: -15px;
+    }
+  }
+}
+.auth-logo {
+  width: 110px;
+}
+.auth-left-content {
+  padding-top: 30px;
+  padding-left: 0;
+
+  @media (min-width: $desk) {
+    padding-left: 0;
+  }
+
+  @media (min-width: $lg) {
+    padding-left: 110px;
+  }
+
+}
+
+.guide-content {
+  width: 46%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 28px 0 0 100px;
+  font-size: 2rem !important;
+  font-weight: 300;
+  line-height: 2.5rem;
+  letter-spacing: 0.02em;
+  position: relative;
+
+  h1 {
+    padding-bottom: 2.1rem;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    max-width: 460px;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 23px;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    color: $darkGray;
+  }
+
+  p {
+    color: $gray;
+  }
+
+  ul {
+    margin-bottom: 73px;
+    counter-reset: section;
+    padding-left: 0;
+  }
+
+  li {
+    position: relative;
+    list-style: none;
+    padding-left: 58px;
+    color: $purple;
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+    padding-top: 8px;
+    line-height: 1.5625rem;
+    font-weight: 400;
+
+    &:before {
+      counter-increment: section;
+      content: counter(section);
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      background: $purple;
+      box-shadow: 0 4px 12px rgba(83, 76, 234, 0.3);
+      color: $white;
+      padding: 8px 14px;
+      font-size: 1rem;
+    }
+  }
+
+  span.locked-icon {
+    margin-right: 15px;
+  }
+
+  span.shield-icon {
+    margin-right: 15px;
+  }
+
+  @media (max-width: $md) {
+    position: static;
+    display: none;
+  }
+
+  @media (max-width: $lg+1px) {
+    .guide-content {
+      padding-left: 45px;
+    }
+  }
+}
+.fb-icon-wrap button {
+  &:hover {
+    box-shadow: 2px 4px 8px $facebookBlueGlow;
+    border-radius: 50%;
+  }
+}
+
+.fb-login-icon {
+  cursor: pointer;
+}
+
+.guide-icon-wrap {
+  display: flex;
+}
+
+.guide-bottom {
+  max-width: 326px;
+
+  p {
+    margin-bottom: 57px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}
+
+.main-table-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.credentials-wrapper {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 30px;
+  min-height: 70vh;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0px -1px 0px #ebecf1;
+  border-radius: 6px 0 0 6px;
+  z-index: 1;
+
+  @media (min-width: $md) {
+    padding-top: 40px;
+  }
+  @media (min-width: $md + 1) {
+    width: 54%;
+    padding-top: 40px;
+  }
+  @media (min-width: $desk) {
+    padding-top: 55px;
+    width: 54%;
+  }
+}
+
+.mm-container.mm-container-final {
+  margin-right: 0;
+}
+//credentials Content
+
+.credentials-content {
+  h1 {
+    padding-bottom: 1.3rem;
+  }
+  p {
+    color: $gray;
+    font-size: 1rem;
+  }
+}
+
+.credentials-content .form-wrap input {
+  height: 48px;
+  font-size: 0.875rem;
+  border: 1px solid $grayOpacity24;
+  border-radius: 4px;
+  padding: 0 20px;
+  color: $darkGray;
+
+  &:active, &:focus {
+    border: 1px solid $gray;
+  }
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+.credentials-content input.invalid {
+  border: 1px solid $redAlert;
+}
+
+.credentials-content {
+  max-width: 450px;
+  padding-left: 100px;
+
+  input {
+    width: 100%;
+  }
+}
+
+.input-wrapper {
+  margin: 0 0 31px;
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid $gray;
+}
+span.forgot-pass {
+  font-size: 0.875rem;
+  float: right;
+  font-weight: $bolder;
+  padding-top: 5px;
+  line-height: 1.125rem;
+}
+.credentials-content .form-wrap button {
+  width: 100%;
+  display: block;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.credentials-content .form-wrap button:hover {
+  color: $white;
+}
+.credentials-content {
+  h2 {
+    font-weight: 300;
+    font-size: 1.75rem;
+    margin-bottom: 17px;
+    line-height: 2.1875rem;
+    color: $black;
+  }
+  p {
+    margin-bottom: 40px;
+    font-weight: 400;
+  }
+}
+
+//forgot password page
+@media (min-width: $sm + 1) {
+  .credentials-content p.f-pwd {
+    width: 22.125rem;
+  }
+}
+.credentials-content .facebook-login {
+  font-size: 0.87rem;
+  border-top: 1px solid $grayOpacity24;
+  padding-top: 34px;
+  font-weight: $bold;
+  margin-top: 32px;
+
+  p span {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+.credentials-content .fb-icon-wrap {
+  display: inline-block;
+  padding-left: 80px;
+
+  button {
+    border: none;
+    border-radius: 50%;
+  }
+}
+
+.auth-end-element {
+  color: $darkGray;
+  line-height: 1.25rem;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+//Footer Second
+.footer-second {
+  border-top: 1px solid rgba(150, 158, 172, 0.25);
+  padding: 24px 0 12px;
+  background-color: $lightBg;
+  margin-top:auto;
+}
+ul.footer-list {
+  padding-left: 0;
+  text-align: right;
+}
+ul.footer-list li {
+  display: inline-block;
+  margin-right: 22px;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+.copyright-text {
+  color: $gray;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+
+.footer-second .footer-list li a {
+  color: $gray;
+}
+.footer-second .footer-list li a:hover {
+  text-decoration: none;
+  color: $darkGray;
+}
+.footer-content {
+  display: table-cell;
+  width: 40%;
+  vertical-align: top;
+}
+.footer-content.right-content {
+  display: table-cell;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.footer-table-wrapper {
+  display: table;
+  width: 100%;
+}
+
+//login img wrap
+
+.logo-img-wrap {
+  position: absolute;
+  top: 26px;
+  left: 0;
+}
+.logo-img-wrapper {
+  display: none;
+  margin-bottom: 72px;
+
+  @media (max-width: $md) {
+      display: block;
+      margin-bottom: 26px;
+    }
+}
+
+//session Expired
+.session-expired {
+  font-size: 0.87rem;
+  color: $white;
+  background: $purpleOpacity10;
+  border-radius: 4px;
+  padding: 25px;
+  margin-bottom: 30px;
+
+  p {
+    color: $darkGray;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+}
+
+//Create New password
+.create-new-password input {
+  margin-bottom: 33px;
+}
+//bottom popup message
+
+.bottom-popup-message {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: $green;
+  border: 1px solid #e2e5ea;
+  box-shadow: 0 2px 8px #e2e8f3;
+  top: 0;
+  left: 0;
+  padding-top: 29px;
+  padding-left: 199px;
+}
+.bottom-popup-message p {
+  color: $white;
+}
+.bottom-popup-message.failure {
+  background: $redAlert;
+  border: 1px solid #e2e5ea;
+  box-shadow: 0 2px 8px #e2e8f3;
+}
+@media (max-width: $lg+1px) {
+  .footer-table-wrapper {
+    padding: 0 32px;
+  }
+  .bottom-popup-message {
+    padding-left: 145px;
+  }
+}
+@media (max-width: $md) {
+  .mm-container.mm-container-final {
+    margin-left: 0 !important;
+  }
+  .bottom-popup-message {
+    padding-left: 79px;
+  }
+}
+
+@media (max-width: $md - 1) {
+  .credentials-content {
+    width: 100vw;
+    padding-left: 32px;
+    padding-right: 6px;
+
+    input {
+      width: 100%;
+    }
+  }
+  ul.footer-list {
+    text-align: left;
+  }
+  .row.footer-second {
+    display: block;
+  }
+  .footer-content {
+    display: block;
+    width: 100%;
+  }
+  .footer-content.right-content {
+    display: block;
+    width: 100%;
+  }
+  .footer-table-wrapper {
+    padding: 0 40px;
+  }
+  .bottom-popup-message p {
+    font-size: 0.93rem;
+  }
+  .bottom-popup-message {
+    padding-left: 0;
+  }
+  .bottom-popup-message {
+    height: 69%;
+  }
+}
+
+//Recently Added
+.password-wrap {
+  position: relative;
+}
+
+span.visibility-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+.email-wrap {
+  display: inline;
+}
+.email-wrap .feedback {
+  margin-top: -17px;
+  margin-bottom: 15px;
+}
+
+.feedback {
+  font-size: 0.75rem;
+  font-weight: $bold;
+  color: $redAlert;
+}
+
+.password-wrap .feedback {
+  margin-top: 11px;
+}
+
+.social-login-options {
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: $gray;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}

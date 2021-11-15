@@ -1,0 +1,1190 @@
+.rtl {
+  direction: rtl;
+}
+
+.home-top {
+  h1 {
+    padding-bottom: 1.3rem;
+  }
+
+  p {
+    color: $gray;
+  }
+}
+
+.networth-section {
+  h1 {
+    padding-bottom: 1.3rem;
+  }
+
+  p {
+    color: $gray;
+  }
+}
+
+.home-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.home-list ul li {
+  margin: 0 10px;
+  list-style: none;
+  flex: 1 0 31.5%;
+  font-size: 1.25rem;
+  color: $gray;
+}
+
+.home-list ul li h2 {
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
+  color: $black;
+}
+
+.mm-container-right.home-banner-container {
+  padding-top: 7px;
+}
+
+//Banner section
+.home-left-banner {
+  max-width: 602px;
+}
+
+.home-left-banner p {
+  margin-bottom: 58px;
+}
+
+.home-left-banner .scroll-down-btn a .scroll-dot {
+  transition: 0.3s;
+}
+
+.home-left-banner .scroll-down-btn a:hover .scroll-dot {
+  transform: translateY(15px);
+}
+
+.home-left-banner .scroll-down-btn {
+  padding-top: 44px;
+}
+
+.home-banner-right {
+  margin-top: -57px;
+}
+
+//Early adopter Section
+.early-adopter-section {
+  padding-top: 120px;
+  padding-bottom: 181px;
+
+  @media (max-width: $md) {
+    padding-top: 0;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 3.3rem;
+    line-height: 106%;
+    margin-bottom: 2rem;
+  }
+}
+
+.early-adopter-section .adopter-top-wrap {
+  max-width: 500px;
+  margin-bottom: 116px;
+}
+
+.early-adopter-section .earlyadopter-list li {
+  padding: 56px 33px 46px;
+  box-shadow: 0 2px 8px #e2e8f3, inset 0 -1px 0 #ebecf1;
+  border-radius: 6px;
+}
+
+.early-adopter-section .adopter-content h3 {
+  margin-bottom: 29px;
+  font-weight: 400;
+  color: $black;
+  font-size: 1.75rem;
+  max-width: 250px;
+  line-height: 2.1875rem;
+}
+
+.early-adopter-section .early-adopter-tag svg {
+  background: linear-gradient(180deg, $purple 41.07%, #3e37d7 100%);
+  box-shadow: 5px 10px 16px rgba(81, 84, 233, 0.2);
+}
+
+.early-adopter-tag {
+  position: absolute;
+  top: -21px;
+  left: 34px;
+}
+
+.early-adopter-tag span {
+  background: linear-gradient(180deg, $purple 41.07%, #3e37d7 100%);
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 6px;
+}
+
+.earlyadopter-list li {
+  position: relative;
+}
+
+//Feature Section
+.mm-container-right.home-feature-section {
+  background-color: $darkBg;
+  padding-top: 107px;
+  padding-bottom: 0;
+}
+
+.home-feature-section .feature-content {
+  max-width: 85%;
+}
+
+.home-feature-section li {
+  margin-bottom: 89px !important;
+}
+
+.home-feature-section li .feature-icon {
+  margin-bottom: 29px;
+}
+
+//Blog Section
+.home-blog-section {
+  padding-bottom: 6px;
+}
+
+.home-blog-section .blog-top-content {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 44px;
+}
+
+.home-blog-section .blog-content-left {
+  width: 85%;
+
+  h2 {
+    max-width: 748px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 2.25rem;
+
+    @media (min-width: $md) {
+      font-size: 3.5rem;
+      margin-bottom: 40px;
+    }
+  }
+
+  p {
+    color: $gray;
+  }
+}
+
+.home-blog-section .blog-content h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  overflow: hidden;
+  margin-bottom: 18px;
+  line-height: 2.56rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  letter-spacing: 0.02em;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  color: $black;
+
+  a {
+    color: $black;
+  }
+}
+
+.home-blog-section .blog-content {
+  max-width: 369px;
+}
+
+.home-blog-section .blog-img {
+  margin-bottom: 23px;
+  width: 384px;
+  height: 257px;
+
+  img {
+    width: 97%;
+    height: 100%;
+    border-radius: 6px;
+  }
+}
+
+.home-blog-section .blog-content {
+  max-width: 384px;
+  overflow: hidden;
+}
+
+.home-list.blog-list li {
+  flex: auto;
+  float: left;
+  width: 30.33%;
+}
+
+.blog-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.blog-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+//allocation section
+
+.allocation-section .networth-section {
+  padding-top: 73px;
+}
+
+.allocation-section .networth-text {
+  padding-top: 155px;
+}
+
+//performance section
+.performance-section .networth-section {
+  padding-top: 70px;
+}
+
+.performance-section .networth-text {
+  padding-top: 100px;
+}
+
+.performance-section .networth-chart {
+  width: 86%;
+}
+
+span.above-tag-text {
+  color: $primary;
+  font-size: 1.125rem;
+  line-height: 1.437rem;
+  background: rgba(83, 76, 234, 0.2);
+  padding: 0 7px;
+  border-radius: 6px;
+  position: absolute;
+  top: 8px;
+  right: -141px;
+}
+
+.performance-section .networth-section h1,
+.minxwinks-section .networth-section h1,
+.minxmeasure-section .networth-section h1 {
+  position: relative;
+  display: inline-block;
+}
+
+//maxwinks section
+.minxwinks-section .networth-section {
+  padding-top: 93px;
+}
+
+.minxwinks-section .networth-text {
+  padding-top: 155px;
+}
+
+.mm-container-right.minxwinks-section {
+  padding-left: 1px;
+}
+
+.minxwinks-section .networth-chart {
+  width: 95%;
+}
+
+//minx measure section
+.minxmeasure-section .networth-section {
+  padding-top: 84px;
+}
+
+.minxmeasure-section .networth-text {
+  padding-top: 90px;
+}
+
+.minxmeasure-section .networth-chart {
+  float: right;
+  width: 72%;
+}
+
+.home-networth.networth-section .networth-text p span {
+  position: absolute;
+  top: -94px;
+}
+
+// coming soon
+.home-coming-soon {
+  text-align: center;
+  margin: auto;
+  padding: 40px 0 40px 0;
+
+  @media (min-width: $md) {
+    padding: 80px 0 80px 0;
+  }
+}
+
+@media (max-width: $lg+1) {
+  .mm-container-right.home-feature-section {
+    margin-left: 0;
+    padding-left: 120px;
+  }
+
+  .allocation-section .networth-text {
+    padding-right: 25px;
+  }
+
+  .home-blog-section .blog-top-content {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: $md) {
+  .scroll-down-btn {
+    position: static;
+    display: none;
+  }
+
+  .mm-container-right.home-banner-container {
+    margin-right: 0;
+  }
+
+  .mm-container-right.home-feature-section {
+    padding-left: 80px;
+  }
+
+  .home-feature-section .feature-content {
+    max-width: none;
+  }
+
+  .home-feature-list ul li {
+    flex: 1 0 47% !important;
+  }
+
+  .home-banner-right {
+    float: right;
+  }
+
+  .home-list ul li {
+    flex: auto;
+    margin-bottom: 31px;
+  }
+
+  .mm-container-right.home-feature-section {
+    margin-right: 0;
+  }
+
+  .mm-container-right.home-feature-section {
+    margin: 0 !important;
+  }
+
+  .mm-container-right {
+    margin: 0 20px !important;
+  }
+
+  .minxmeasure-section .networth-chart {
+    float: none;
+    width: 100%;
+  }
+
+  .performance-section .networth-chart {
+    width: 100%;
+  }
+
+  .home-blog-section .blog-top-content {
+    display: block;
+  }
+
+  .home-blog-section ul li:last-child {
+    display: none;
+  }
+
+  .home-blog-section .blog-content-left {
+    width: 100%;
+  }
+
+  .home-blog-section .blog-content-left h2 {
+    max-width: none;
+  }
+}
+
+@media (max-width: $sm) {
+  .early-adopter-section .earlyadopter-list li {
+    padding: 51px 28px;
+  }
+
+  .home-list ul li {
+    margin-right: 27px;
+  }
+
+  .home-feature-list ul li {
+    flex: auto !important;
+  }
+
+  .mm-container-right.home-feature-section {
+    padding-left: 21px;
+  }
+
+  .home-feature-section .feature-content {
+    max-width: 100%;
+  }
+
+  .home-list.blog-list ul {
+    margin-right: 20px;
+  }
+
+  .home-list ul li {
+    margin: 0;
+  }
+
+  .home-list.blog-list li {
+    float: none;
+    width: 100%;
+  }
+
+  .home-networth.networth-section .networth-text p span {
+    top: -44px;
+  }
+}
+
+.mm-btn-primary-outline:hover {
+  color: $primary;
+  background-color: $white !important;
+  border-color: $white;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: $primary !important;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+.mm-above-tag-text {
+  color: $purple;
+  font-size: 1.125rem;
+  line-height: 1.437rem;
+  background: rgba(83, 76, 234, 0.2);
+  padding: 0 7px;
+  border-radius: 6px;
+  height: 24px;
+  top: 140px;
+  width: 130px;
+  position: absolute;
+  left: 260px;
+
+  @media (min-width: $lg - 101) and (max-width: $lg - 28) {
+    // must rare cases
+    left: 264px;
+  }
+}
+
+.coming-soon-wrapper {
+  @media (min-width: $md + 224) {
+    padding-left: 4.5rem;
+  }
+
+  @media (min-width: $lg - 100) {
+    padding-left: 9.5rem;
+  }
+}
+
+.mm-home-banner-img {
+  margin-right: -88px;
+
+  @media (min-width: $lg - 300) {
+    margin-right: -185px;
+  }
+
+  svg {
+    width: 30rem;
+
+    @media (min-width: $md) {
+      width: 55rem;
+    }
+
+    @media (min-width: $md) {
+      width: 55rem;
+    }
+
+    @media (min-width: $md + 224) and (max-width: $lg - 140) {
+      width: 28rem;
+    }
+  }
+}
+
+.mm-home-left-block {
+  max-width: 600px;
+}
+
+.mm-home-top-section {
+  padding: 1rem;
+
+  @media (min-width: $md) {
+    padding: 3rem;
+  }
+
+  @media (min-width: $lg) {
+    padding: 0 120px;
+  }
+
+  .text,
+  .info-text {
+    color: $gray;
+  }
+
+  .mm-scroll-down {
+    margin-top: 5rem;
+  }
+}
+
+.mm-mobile-hide {
+  @media (max-width: $md) {
+    display: none;
+  }
+}
+
+.mm-container-right-custom {
+  padding: 36px 0 74px 120px;
+
+  @media (max-width: $md) {
+    padding-left: 21px;
+  }
+
+  .networth-chart {
+    width: unset;
+  }
+}
+
+.networth-chart {
+  float: unset;
+
+  @media (max-width: $md) {
+    padding-left: 0 !important;
+  }
+
+}
+
+@media (min-width: $lg) {
+  .mm-container-right {
+    padding: 36px 0 74px 56px;
+  }
+
+  .networth-chart {
+    float: unset;
+    width: unset !important;
+  }
+}
+
+@media (min-width: $md + 101) {
+  .blog-content-right button {
+    margin-top: 10rem;
+  }
+
+  .home-list.blog-list {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: $md + 100) {
+  .adopter-top-wrap {
+    margin-top: 7rem;
+    padding-left: 2rem;
+  }
+
+  .earlyadopter-list {
+    padding-left: 2rem !important;
+  }
+
+  .home-networth.networth-section .networth-text p span {
+    position: absolute;
+    top: 0;
+  }
+
+  .networth-chart {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    float: unset;
+    width: unset;
+  }
+
+  .networth-chart.text-right {
+    padding-left: 2.6rem;
+  }
+}
+
+@media (max-width: $sm + 300) {
+  .adopter-top-wrap,
+  .earlyadopter-list {
+    padding-left: 0 !important;
+  }
+
+  .home-list.blog-list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .networth-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .networth-chart.text-right {
+    padding-left: 0;
+  }
+
+  .minxmeasure-section .networth-chart {
+    padding-left: 0;
+  }
+}
+
+.blog-content a {
+  color: $black;
+}
+
+// new update
+.mouse {
+  width: 24px;
+  height: 36px;
+  border-radius: 16px;
+  border: 1.5px solid $gray;
+  -webkit-animation: intro 1s;
+  animation: intro 1s;
+}
+
+.scroll {
+  display: block;
+  width: 4px;
+  height: 4px;
+  margin: 6px auto;
+  border-radius: 4px;
+  background: $gray;
+  -webkit-animation: finger 2s infinite;
+  animation: finger 2s infinite;
+}
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes finger {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes finger {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+.mm-new-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 16px;
+
+  @media (min-width: $md) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  @media (min-width: $md + 372) {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  section {
+    margin-bottom: 80px;
+
+    @media (min-width: $md) {
+      margin-bottom: 150px;
+    }
+  }
+
+  .mm-home-left-banner {
+    @media (min-width: $md + 372) {
+      margin-right: calc(100% - 604px);
+    }
+
+    h1 {
+      margin-bottom: 32px;
+      font-size: 2.25rem;
+
+      @media (min-width: $md) {
+        font-size: 3.3rem;
+      }
+
+    }
+
+    button {
+      margin-top: 30px;
+
+      @media (min-width: $md + 372) {
+        margin-top: 60px;
+      }
+    }
+
+    p {
+      color: $gray;
+      font-weight: 300;
+      font-size: 1.25rem;
+      max-width: 100%;
+
+      @media (min-width: $md + 372) {
+        max-width: 80%;
+      }
+    }
+
+    small {
+      color: $gray;
+      font-weight: 300;
+      font-size: 0.875rem;
+    }
+  }
+
+  .mm-home-right-img-banner {
+    svg {
+      margin-left: -180px;
+
+      @media (min-width: $md) {
+        margin-left: 0;
+      }
+
+      @media (min-width: $lg) {
+        margin-left: calc(100% - 510px);
+      }
+    }
+  }
+
+  .mm-scroll-container-parent {
+    margin-top: 100px;
+  }
+
+  .mm-mb-hide {
+    display: none;
+
+    @media (min-width: $md + 372) {
+      display: block;
+    }
+  }
+
+  .adopter-content {
+    background: #ffffff;
+    box-shadow: 0 2px 8px #e2e8f3, inset 0 -1px 0 #ebecf1;
+    border-radius: 6px;
+    padding: 42px;
+
+    h3 {
+      font-weight: normal;
+      font-size: 1.75rem;
+    }
+  }
+
+  .early-adopter-tag {
+    box-shadow: 5px 10px 16px rgba(81, 84, 233, 0.2);
+  }
+
+  .adopter-top-wrap {
+    margin-bottom: 60px;
+
+    p {
+      font-weight: 300;
+    }
+
+    @media (min-width: $md + 372) {
+      margin-bottom: 110px;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: $gray;
+  }
+
+  .mm-home-feature-section {
+    background-color: $darkBg;
+    padding: 100px 100px 0 100px;
+    margin-left: -120px;
+    margin-right: -120px;
+
+    .mm-home-feature-wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .feature-content {
+      width: 100%;
+      margin-bottom: 120px;
+      height: 100%;
+
+      @media (min-width: $md + 372) {
+        padding-right: 80px;
+      }
+
+      h2,
+      p {
+        color: $white;
+        font-weight: 300;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      p {
+        font-size: 1.125rem;
+        max-width: 300px;
+      }
+    }
+  }
+
+  .home-blog-section {
+    .mm-blog-details {
+      h2,
+      a {
+        font-weight: 300;
+        font-size: 2rem;
+        color: $black;
+      }
+    }
+
+    .mm-blog-img {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 6px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .mm-blog-btn {
+      float: right;
+      margin-top: -125px;
+    }
+
+    .home-list.blog-list {
+      margin-top: 60px;
+
+      .mm-link-blog-btn {
+        display: none;
+
+        @media (min-width: $md + 432) {
+          display: block !important;
+        }
+      }
+    }
+  }
+
+  .mm-networth-section-overview {
+    margin-top: 40px;
+
+    @media (min-width: $sm) {
+      margin-top: 60px;
+    }
+
+    p {
+      margin-bottom: 60px;
+    }
+
+    .networth-text {
+      padding-top: 0;
+
+      @media (min-width: $md + 432) {
+        margin-right: calc(100% - 444px);
+      }
+
+      h1 {
+        margin-bottom: 32px;
+      }
+    }
+
+    .mm-networth-chart {
+      text-align: center;
+
+      @media (min-width: $md + 432) {
+        margin-left: calc(100% - 610px);
+      }
+    }
+  }
+
+  .networth-section {
+    padding-top: 0;
+  }
+
+  .mm-home-performance-section {
+    .mm-home-performance-section-chart {
+      text-align: center;
+
+      @media (min-width: $md + 432) {
+        margin-left: calc(100% - 590px);
+      }
+    }
+
+    span.mm-above-tag-text {
+      color: $purple;
+      font-size: 1.125rem;
+      line-height: 1.437rem;
+      background: rgba(83, 76, 234, 0.2);
+      padding: 0 7px;
+      border-radius: 6px;
+      position: absolute;
+      top: 50px;
+      left: 330px;
+    }
+
+    .mm-mb-hide {
+      display: none;
+
+      @media (min-width: $md) {
+        display: block;
+      }
+    }
+  }
+
+  .mm-winks-section {
+    .mm-above-tag-text {
+      color: $purple;
+      font-size: 1.125rem;
+      line-height: 1.437rem;
+      background: rgba(83, 76, 234, 0.2);
+      padding: 0 7px;
+      border-radius: 6px;
+      height: 24px;
+      top: 35px;
+      position: absolute;
+      left: 305px;
+    }
+
+    .mm-mb-hide {
+      display: none;
+
+      @media (min-width: $md) {
+        display: block;
+      }
+    }
+
+    .mm-custom-networth-chart {
+      @media (max-width: $md - 1) {
+        margin-right: -14rem;
+      }
+    }
+
+    .networth-chart {
+      padding-right: 0;
+      padding-left: 0;
+
+      @media (min-width: $md) and (max-width: $md + 400) {
+        width: 100%;
+        height: 100%;
+      }
+
+      svg {
+        @media (min-width: $md) and (max-width: $md + 400) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .mm-measure-section {
+
+    .mm-mb-hide {
+      display: none;
+
+      @media (min-width: $md) {
+        display: block;
+      }
+    }
+
+    .mm-networth-chart {
+      text-align: center;
+
+      @media (min-width: $md + 432) {
+        margin-left: calc(100% - 495px);
+      }
+    }
+
+    .mm-above-tag-text {
+      color: $purple;
+      font-size: 1.125rem;
+      line-height: 1.437rem;
+      background: rgba(83, 76, 234, 0.2);
+      padding: 0 7px;
+      border-radius: 6px;
+      height: 24px;
+      top: 50px;
+      position: absolute;
+      left: 440px;
+    }
+  }
+}
+
+.adopter-top-wrap h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  padding-bottom: 14px;
+
+  @media (min-width: $md) {
+    font-size: 3.5rem;
+  }
+}
+
+.mm-networth-chart-legend {
+  margin-right: calc(100% - 590px);
+
+  @media (min-width: $md) {
+    margin-right: calc(100% - 54rem);
+  }
+}
+
+.mm-sm-md-hide {
+  @media (max-width: $md + 432) {
+    display: none;
+  }
+}
+
+@media (max-width: $sm + 200) {
+  .networth-section.rtl {
+    margin-top: -130px;
+  }
+
+  .mm-blog-details {
+    margin-bottom: 32px;
+  }
+
+  .mm-new-container .mm-home-feature-section .feature-content {
+    margin-bottom: 50px;
+  }
+
+  .mm-winks-section .networth-text {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: $md + 432) {
+  .networth-text {
+    margin-bottom: 40px;
+  }
+}
+
+/* Testimonials */
+
+.testimonial {
+  margin-top: 100px;
+}
+
+.testimonial-row {
+  padding-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.testimonial-row::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-block {
+  margin: 0 10px;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+
+.testimonial-card {
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px #E2E8F3, inset 0 -1px 0 #EBECF1;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  padding: 30px;
+  color: #434A55;
+  min-height: 150px;
+  width:276px;
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+.testimonial-quote {
+  left: 40px;
+  position: absolute;
+  top: -12px;
+}
+
+.testimonial-user {
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  left: 20px;
+  bottom: 35px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonial-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 35px;
+}
+
+.testimonial-name span {
+  color: #969EAC;
+  font-size: 18px;
+  padding-left: 5px;
+}

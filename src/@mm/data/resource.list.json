@@ -1,0 +1,15 @@
+{
+  "title": "Resources",
+  "list": [
+    {
+      "name": "Blog",
+      "link": "https://www.moneyminx.com/blog",
+      "external": true
+    },
+    {
+      "name": "Security",
+      "link": "/security",
+      "external": false
+    }
+  ]
+}

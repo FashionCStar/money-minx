@@ -1,0 +1,76 @@
+.navbar {
+  position: relative;
+}
+.navbar {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.navbar > .container,
+.navbar > .container-fluid {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+}
+
+.mm-navbar {
+  @extend .navbar;
+  padding: 20px 0 20px 20px;
+  flex-wrap: nowrap;
+
+  @media (min-width: $md) {
+    padding: 30px 50px 36px 50px;
+  }
+
+  @media (min-width: $lg) {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+.top-navbar {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.mm-app-nav-icon {
+  height: 42px;
+}
+
+.profilemenu.open-slidebar {
+  &+.collapse {
+    &+.content-container {
+      &+.mm-slider-bg-overlay {
+        display: block;
+      }
+    }
+  }
+}
+.profilemenu.open-slidebar {
+  &+.collapse {
+    &+.mm-settings-container {
+      &+.mm-slider-bg-overlay {
+        display: block;
+      }
+    }
+  }
+}
+.mm-slider-bg-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.05;
+  z-index: 9;
+  cursor: pointer;
+}

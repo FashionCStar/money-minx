@@ -1,0 +1,25 @@
+{
+  "title": "Company",
+  "list": [
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Pricing",
+      "link": "/pricing"
+    },
+    {
+      "name": "Notices",
+      "link": "/notices"
+    },
+    {
+      "name": "Privacy",
+      "link": "/privacy"
+    },
+    {
+      "name": "Terms of Service",
+      "link": "/terms"
+    }
+  ]
+}

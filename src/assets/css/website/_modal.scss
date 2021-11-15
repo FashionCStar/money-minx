@@ -1,0 +1,202 @@
+.modal-xs {
+  max-width: 100%;
+
+  @media (min-width: $md) {
+    max-width: 372px;
+  }
+}
+
+.modal-sm {
+  max-width: 430px;
+}
+
+.modal-md {
+  max-width: 520px;
+}
+
+.modal-mdx {
+  max-width: 650px;
+}
+
+.modal-lg {
+  max-width: 700px;
+}
+
+.modal-xl {
+  max-width: 740px;
+}
+
+
+.modal-show {
+  display: block;
+}
+
+.mm-modal-backdrop {
+  @extend .modal-backdrop;
+  background-color: transparent;
+  overflow-y: scroll;
+}
+
+.modal-btn-wrapper {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mm-modal-backdrop {
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mm-modal-backdrop.in {
+  opacity: 1 !important;
+}
+
+button.hidden {
+  display: none;
+}
+
+//Associate modal
+.modal-content {
+  border: none;
+  background: #ffffff;
+  box-shadow: 2px 2px 16px #c2c9d6, inset 0px -1px 0px #ebecf1;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 1rem 1rem 2.5rem 0.75rem;
+
+  @media (min-width: $sm) {
+    padding: 1rem 1.5rem 2.5rem 0.75rem;
+  }
+
+  @media (min-width: $md) {
+    padding: 1rem 1.5rem 2.5rem 1.5rem;
+  }
+}
+
+.modal-body {
+  padding: 0;
+
+  @media (min-width: $sm) {
+    padding: 0 1rem;
+  }
+}
+
+.modal-wrapper .modal-btn-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-wrapper .modal-btn-wrapper button {
+  width: 100%;
+  display: block;
+}
+
+.close {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 24px;
+  height: 24px;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  @media (min-width: $md) {
+    right: 24px;
+    top: 24px;
+  }
+}
+
+.modal-close {
+  color: $gray;
+
+  &:hover {
+    color: $darkGray;
+  }
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 1rem 0;
+
+  @media (min-width: $sm) {
+    padding: 1rem 0.5rem;
+  }
+
+  @media (min-width: $md) {
+    padding: 1rem;
+  }
+}
+
+.close:hover {
+  color: $darkGray;
+}
+
+.modal-title {
+  font-size: 1.625rem;
+
+  @media (min-width: $sm) {
+    font-size: 1.75rem;
+  }
+}
+
+.modal-wrapper p {
+  font-size: 1rem !important;
+  color: $gray;
+}
+
+.modal-wrapper .create-new-btn p {
+  font-size: 0.87rem;
+  color: $gray;
+  text-align: center;
+  margin-top: 28px;
+  display: inline-block;
+  font-weight: 400;
+  padding-bottom: 0;
+
+  &:hover {
+    color: $darkGray;
+  }
+}
+
+//signup modal
+
+.modal-wrapper.signup-modal .modal-btn-wrapper button {
+  display: inline-block;
+  width: auto;
+  padding: 11px 22px;
+  border-radius: 4px;
+}
+.signup-done-modal-logo {
+  margin-bottom: 32px;
+}
+.modal-wrapper.signup-modal h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.modal-wrapper.signup-modal .modal-btn-wrapper {
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.modal-wrapper.signup-modal .modal-btn-wrapper button {
+  margin-right: 40px;
+}
+
+@media (max-width: $sm) {
+  .modal-wrapper.signup-modal .modal-btn-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .modal-wrapper.signup-modal .modal-btn-wrapper button {
+    margin-right: 0;
+    width: 100%;
+  }
+  .modal-dialog {
+    width: 94%;
+  }
+}

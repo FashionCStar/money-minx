@@ -1,0 +1,30 @@
+{
+  "all": ["accountName", "mmCategory", "mmAccountType", "mmAccountSubType", "currency"],
+  "loans": ["interestRate", "originationDate", "originalBalance", "maturityDate", "paymentsPerYear", "loanBalance"],
+  "startup": ["postMoneyValuation", "currentValuation", "investedDate", "amountInvested"],
+  "investment": ["termForInvestment", "investedDate", "amountInvested", "currentMarketValue", "targetInterestRate"],
+  "business": ["businessStartDate", "associatedLoan", "estimatedAnnualRevenues"],
+  "liquidity": ["liquidity"],
+  "returns": ["calculateReturns", "estimatedAnnualReturns"],
+  "employer": [
+    "employerMatchContribution",
+    "employerMatch",
+    "employerMatchLimitIn",
+    "employerMatchLimit",
+    "includeEmployerMatch"
+  ],
+  "reduction": ["calculateReturns", "estimatedAnnualPrincipalReduction"],
+  "realEstate": [
+    "streetAddress",
+    "city",
+    "state",
+    "zipCode",
+    "country",
+    "useZestimate",
+    "ownEstimate",
+    "associatedMortgage",
+    "loanBalance",
+    "calculatedEquity",
+    "calculateReturnsOn"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Features",
+  "list": [
+    {
+      "name": "Net Worth Tracker",
+      "link": "/features/net-worth"
+    },
+    {
+      "name": "Allocations",
+      "link": "/about"
+    },
+    {
+      "name": "Performance",
+      "link": "/about"
+    },
+    {
+      "name": "Income",
+      "link": "/about"
+    },
+    {
+      "name": "Account Details",
+      "link": "/about"
+    }
+  ]
+}
